@@ -1,0 +1,7 @@
+model,precision,recall,ndcg,hit,coverage,diversity,topic_spread,eligible_rate,rmse,mae
+Full PCHR,0.3664,0.9241,0.8047,0.975,0.7417,0.9652,0.6407,1.0,,
+- eligibility rule,0.2578,0.6323,0.5502,0.7825,0.8542,0.9378,0.4054,0.4471,,
+- career/interest profile,0.3277,0.8417,0.7036,0.9406,0.7333,0.9701,0.6822,1.0,,
+- difficulty-vs-CGPA penalty,0.3661,0.9235,0.8056,0.9741,0.7417,0.9648,0.6394,1.0,,
+- MMR diversity,0.3672,0.9252,0.8051,0.9745,0.7417,0.9642,0.6349,1.0,,
+- matrix factorization,0.3628,0.9146,0.7966,0.9708,0.725,0.9632,0.6367,1.0,,

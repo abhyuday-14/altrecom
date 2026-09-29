@@ -1,0 +1,601 @@
+student_id,branch,gpa,career_goal,declared_interests,semesters_completed
+S0000,CSE,7.76,Systems Engineer,Systems;Data,5
+S0001,IT,6.56,ML Engineer,Systems;AI/ML,4
+S0002,ECE,8.6,Web/App Developer,Theory;Web/Software,5
+S0003,CSE,7.78,Web/App Developer,Systems,4
+S0004,AI&DS,8.6,ML Engineer,Web/Software;AI/ML,5
+S0005,ECE,7.96,Security Analyst,Security;Systems,6
+S0006,IT,8.24,ML Engineer,Theory;AI/ML,5
+S0007,IT,7.84,Research / Higher Studies,Data;Theory,4
+S0008,IT,7.12,Systems Engineer,Web/Software;Systems,5
+S0009,CSE,9.28,Web/App Developer,AI/ML;Data,6
+S0010,CSE,6.26,ML Engineer,Web/Software;Theory,5
+S0011,CSE,8.97,Data Scientist,Theory;AI/ML,6
+S0012,IT,9.07,Security Analyst,Web/Software;Systems,5
+S0013,AI&DS,7.6,Web/App Developer,Data;Web/Software,5
+S0014,CSE,8.92,Data Scientist,Web/Software;AI/ML,6
+S0015,AI&DS,6.92,Security Analyst,Data;Web/Software,4
+S0016,CSE,8.83,Research / Higher Studies,Web/Software;Security,5
+S0017,IT,6.88,Security Analyst,AI/ML;Security,5
+S0018,IT,5.82,Systems Engineer,Web/Software;Data,5
+S0019,AI&DS,7.58,Systems Engineer,Web/Software;Systems,6
+S0020,AI&DS,7.64,Research / Higher Studies,AI/ML;Theory,6
+S0021,CSE,6.72,Research / Higher Studies,Web/Software;Systems,6
+S0022,AI&DS,8.63,Data Scientist,Data;AI/ML,6
+S0023,IT,8.08,Web/App Developer,Web/Software;Data,5
+S0024,AI&DS,5.79,Research / Higher Studies,AI/ML;Web/Software,6
+S0025,ECE,7.64,Security Analyst,Systems;Security,5
+S0026,CSE,8.06,Data Scientist,AI/ML;Security,5
+S0027,AI&DS,8.72,Data Scientist,Security;Data,5
+S0028,CSE,8.14,Data Scientist,Data;Theory,6
+S0029,AI&DS,7.22,Research / Higher Studies,Data;Systems,5
+S0030,CSE,7.01,Research / Higher Studies,AI/ML;Data,5
+S0031,AI&DS,7.78,Data Scientist,AI/ML;Data,5
+S0032,IT,8.57,Web/App Developer,Web/Software;AI/ML,5
+S0033,IT,7.2,ML Engineer,Security;Data,5
+S0034,ECE,6.92,Research / Higher Studies,Security;Theory,5
+S0035,ECE,7.23,Web/App Developer,Web/Software;Systems,4
+S0036,ECE,7.45,Data Scientist,AI/ML;Security,5
+S0037,ECE,8.03,Security Analyst,Systems;AI/ML,5
+S0038,CSE,7.19,Web/App Developer,Web/Software;Theory,5
+S0039,IT,6.12,Research / Higher Studies,Theory;Data,5
+S0040,IT,9.06,Research / Higher Studies,AI/ML;Data,5
+S0041,CSE,7.27,Security Analyst,Systems;Web/Software,5
+S0042,IT,7.93,Web/App Developer,Web/Software;AI/ML,5
+S0043,CSE,7.42,Data Scientist,Systems;AI/ML,5
+S0044,CSE,6.69,Research / Higher Studies,Web/Software;Security,5
+S0045,ECE,6.39,Security Analyst,Theory;Systems,6
+S0046,AI&DS,8.58,Research / Higher Studies,Data;AI/ML,5
+S0047,AI&DS,7.43,ML Engineer,Data,5
+S0048,CSE,6.6,Data Scientist,AI/ML;Data,5
+S0049,CSE,8.99,Research / Higher Studies,Systems;AI/ML,4
+S0050,CSE,6.93,ML Engineer,Data;AI/ML,4
+S0051,IT,8.62,Systems Engineer,Security;Data,4
+S0052,IT,7.13,ML Engineer,Web/Software;Systems,5
+S0053,CSE,6.7,Research / Higher Studies,Data;AI/ML,4
+S0054,AI&DS,6.92,Security Analyst,AI/ML;Theory,5
+S0055,CSE,8.39,ML Engineer,AI/ML;Systems,4
+S0056,CSE,7.87,Security Analyst,Data;Security,5
+S0057,CSE,7.53,Data Scientist,Theory;Data,6
+S0058,CSE,6.56,Web/App Developer,Web/Software;Theory,4
+S0059,AI&DS,8.3,Security Analyst,Security,4
+S0060,CSE,8.02,Data Scientist,AI/ML;Data,6
+S0061,AI&DS,8.49,Data Scientist,AI/ML;Data,6
+S0062,ECE,6.66,Security Analyst,Security;Systems,5
+S0063,ECE,6.66,Research / Higher Studies,Theory;Web/Software,4
+S0064,AI&DS,7.54,ML Engineer,Systems;AI/ML,6
+S0065,CSE,7.44,Web/App Developer,AI/ML;Web/Software,5
+S0066,AI&DS,8.59,Research / Higher Studies,AI/ML;Data,4
+S0067,AI&DS,8.37,Research / Higher Studies,Systems;Data,4
+S0068,ECE,5.87,Systems Engineer,Systems;Web/Software,4
+S0069,CSE,7.47,Data Scientist,Theory;Data,4
+S0070,CSE,8.48,ML Engineer,Data;Web/Software,5
+S0071,CSE,8.32,Security Analyst,Systems,6
+S0072,CSE,6.22,Security Analyst,AI/ML;Security,5
+S0073,ECE,6.5,Research / Higher Studies,Theory;Web/Software,5
+S0074,CSE,6.96,ML Engineer,Web/Software;Theory,5
+S0075,CSE,8.46,Web/App Developer,Web/Software;Data,4
+S0076,IT,9.17,ML Engineer,Web/Software;AI/ML,6
+S0077,ECE,6.33,Web/App Developer,Web/Software;Systems,6
+S0078,CSE,6.83,ML Engineer,AI/ML;Theory,6
+S0079,CSE,8.81,Data Scientist,Security;Web/Software,6
+S0080,ECE,9.42,Web/App Developer,Systems;Web/Software,4
+S0081,ECE,7.15,Research / Higher Studies,AI/ML;Systems,6
+S0082,CSE,9.49,Web/App Developer,Web/Software;Systems,4
+S0083,AI&DS,7.18,Research / Higher Studies,AI/ML;Systems,4
+S0084,AI&DS,6.49,Web/App Developer,AI/ML;Web/Software,6
+S0085,ECE,7.51,Security Analyst,Theory,5
+S0086,CSE,9.14,ML Engineer,Systems;AI/ML,5
+S0087,CSE,7.29,Data Scientist,Security;Systems,4
+S0088,AI&DS,6.47,Security Analyst,Data;Security,6
+S0089,AI&DS,6.15,Systems Engineer,Security;AI/ML,5
+S0090,AI&DS,8.57,Systems Engineer,Data,5
+S0091,ECE,6.3,Systems Engineer,Systems;Theory,5
+S0092,IT,7.4,Web/App Developer,Web/Software;Data,4
+S0093,AI&DS,6.3,ML Engineer,AI/ML;Security,5
+S0094,CSE,8.79,Systems Engineer,Data;Systems,5
+S0095,CSE,5.93,Security Analyst,Security;AI/ML,5
+S0096,IT,8.84,Web/App Developer,Data;Systems,5
+S0097,ECE,8.82,Web/App Developer,Theory;Web/Software,5
+S0098,AI&DS,8.31,ML Engineer,AI/ML;Data,6
+S0099,ECE,7.79,Research / Higher Studies,Security;Data,5
+S0100,AI&DS,6.05,Data Scientist,Web/Software;AI/ML,6
+S0101,CSE,9.06,ML Engineer,AI/ML;Data,5
+S0102,CSE,9.8,ML Engineer,Data;Systems,6
+S0103,AI&DS,8.37,Data Scientist,AI/ML;Web/Software,4
+S0104,ECE,7.04,Web/App Developer,Systems;Security,5
+S0105,CSE,7.87,Web/App Developer,Web/Software;Security,4
+S0106,CSE,6.44,ML Engineer,AI/ML;Data,4
+S0107,IT,6.07,Web/App Developer,Web/Software;Systems,5
+S0108,AI&DS,6.5,Data Scientist,AI/ML;Data,5
+S0109,ECE,6.92,Systems Engineer,Systems;Security,4
+S0110,ECE,8.68,Security Analyst,Data;Security,4
+S0111,CSE,7.16,Web/App Developer,Data;Theory,4
+S0112,IT,7.42,Research / Higher Studies,Theory;AI/ML,5
+S0113,ECE,6.92,Systems Engineer,Systems;AI/ML,6
+S0114,AI&DS,8.2,ML Engineer,AI/ML;Systems,4
+S0115,AI&DS,8.06,Research / Higher Studies,Web/Software;AI/ML,5
+S0116,CSE,8.33,Systems Engineer,Security;Systems,6
+S0117,AI&DS,7.62,Systems Engineer,Data;Web/Software,5
+S0118,CSE,8.7,ML Engineer,Web/Software;Systems,5
+S0119,AI&DS,6.58,Web/App Developer,Data;Theory,4
+S0120,IT,8.03,Data Scientist,Web/Software;Theory,5
+S0121,AI&DS,7.78,Data Scientist,AI/ML;Data,4
+S0122,AI&DS,6.61,Research / Higher Studies,AI/ML,5
+S0123,IT,7.4,Web/App Developer,Systems;Theory,5
+S0124,CSE,8.98,Web/App Developer,Data,5
+S0125,IT,8.85,Systems Engineer,Security;Data,5
+S0126,ECE,6.16,Data Scientist,Data;Security,6
+S0127,CSE,7.43,Security Analyst,Security;Web/Software,5
+S0128,CSE,8.37,ML Engineer,Theory,5
+S0129,IT,6.81,Data Scientist,Web/Software;Security,5
+S0130,ECE,6.26,Research / Higher Studies,Security;Systems,4
+S0131,CSE,9.76,Security Analyst,Systems;Theory,4
+S0132,CSE,9.16,ML Engineer,Web/Software;Security,4
+S0133,ECE,7.67,Systems Engineer,Systems;Web/Software,5
+S0134,IT,9.03,Systems Engineer,Systems;Web/Software,6
+S0135,IT,7.32,Systems Engineer,Web/Software;Theory,6
+S0136,CSE,7.31,Data Scientist,Security;Web/Software,4
+S0137,CSE,6.97,Web/App Developer,Web/Software;Data,6
+S0138,IT,6.75,Security Analyst,Data;Systems,6
+S0139,CSE,8.18,Web/App Developer,Security;AI/ML,4
+S0140,AI&DS,9.35,ML Engineer,AI/ML;Systems,4
+S0141,AI&DS,6.18,Data Scientist,Data;Web/Software,5
+S0142,AI&DS,7.52,Data Scientist,Web/Software;AI/ML,4
+S0143,CSE,7.61,Systems Engineer,Security,4
+S0144,CSE,8.47,ML Engineer,Security;Web/Software,6
+S0145,AI&DS,8.35,Security Analyst,Data;Security,5
+S0146,ECE,7.42,Systems Engineer,Web/Software,4
+S0147,AI&DS,7.64,Research / Higher Studies,Data;Theory,5
+S0148,CSE,7.72,ML Engineer,Theory;Web/Software,5
+S0149,AI&DS,9.79,Security Analyst,Web/Software;AI/ML,6
+S0150,CSE,8.28,Security Analyst,Security;Data,6
+S0151,CSE,7.53,Security Analyst,Security;AI/ML,5
+S0152,CSE,7.84,Systems Engineer,Theory;Web/Software,4
+S0153,CSE,8.35,Security Analyst,Security;Theory,5
+S0154,ECE,7.67,Security Analyst,Systems;Security,5
+S0155,CSE,6.29,Security Analyst,Security;Web/Software,4
+S0156,CSE,7.87,Web/App Developer,Web/Software;Theory,5
+S0157,AI&DS,6.12,Data Scientist,Data;AI/ML,5
+S0158,IT,6.62,Security Analyst,AI/ML,4
+S0159,CSE,8.13,Web/App Developer,Systems;AI/ML,4
+S0160,ECE,7.38,ML Engineer,Theory;Systems,4
+S0161,IT,7.99,Data Scientist,AI/ML;Web/Software,4
+S0162,CSE,9.48,Data Scientist,Web/Software;Theory,4
+S0163,ECE,7.76,ML Engineer,AI/ML;Systems,5
+S0164,AI&DS,8.52,Data Scientist,Data;Web/Software,5
+S0165,CSE,7.93,Security Analyst,AI/ML;Security,5
+S0166,IT,5.14,Systems Engineer,Security;AI/ML,6
+S0167,ECE,7.9,Systems Engineer,Systems;Web/Software,6
+S0168,CSE,7.4,Web/App Developer,AI/ML;Data,5
+S0169,ECE,8.59,Research / Higher Studies,Theory;Security,4
+S0170,IT,6.9,Security Analyst,Web/Software;Security,5
+S0171,AI&DS,5.85,ML Engineer,AI/ML,4
+S0172,CSE,7.99,Systems Engineer,AI/ML;Web/Software,6
+S0173,CSE,7.66,Web/App Developer,Web/Software,4
+S0174,IT,8.69,ML Engineer,Systems;Web/Software,4
+S0175,CSE,8.99,Security Analyst,AI/ML;Theory,6
+S0176,AI&DS,6.19,ML Engineer,Data;AI/ML,6
+S0177,CSE,7.44,Security Analyst,Security;Systems,5
+S0178,AI&DS,5.99,Security Analyst,Data;AI/ML,4
+S0179,IT,7.16,Systems Engineer,Data;Theory,6
+S0180,AI&DS,7.94,Research / Higher Studies,Theory;Systems,4
+S0181,AI&DS,8.68,Research / Higher Studies,AI/ML;Theory,4
+S0182,CSE,9.05,ML Engineer,AI/ML;Theory,4
+S0183,ECE,6.29,Systems Engineer,Data;Web/Software,4
+S0184,IT,6.98,ML Engineer,Data;Security,6
+S0185,AI&DS,8.45,Security Analyst,Data;AI/ML,5
+S0186,CSE,7.77,ML Engineer,Web/Software;Theory,4
+S0187,AI&DS,5.39,Data Scientist,Data;AI/ML,6
+S0188,CSE,7.06,Research / Higher Studies,Data,5
+S0189,CSE,7.75,Research / Higher Studies,Systems;Theory,4
+S0190,CSE,8.69,Security Analyst,Systems;AI/ML,4
+S0191,IT,7.46,Web/App Developer,Web/Software;Security,6
+S0192,CSE,8.12,Web/App Developer,Data;Security,6
+S0193,IT,7.6,Research / Higher Studies,Theory;Security,6
+S0194,IT,8.29,Web/App Developer,Systems;Web/Software,6
+S0195,CSE,7.18,Research / Higher Studies,Data;AI/ML,6
+S0196,AI&DS,8.66,ML Engineer,Systems;AI/ML,6
+S0197,AI&DS,8.82,Systems Engineer,Data;Systems,5
+S0198,IT,7.53,ML Engineer,AI/ML;Security,6
+S0199,AI&DS,6.56,Security Analyst,Web/Software;Data,5
+S0200,AI&DS,6.68,Data Scientist,Data;Security,6
+S0201,CSE,6.57,ML Engineer,Security;Systems,5
+S0202,CSE,9.25,Research / Higher Studies,Web/Software;AI/ML,4
+S0203,AI&DS,9.34,Research / Higher Studies,Security,4
+S0204,CSE,6.33,Web/App Developer,Systems;Web/Software,4
+S0205,IT,7.89,Security Analyst,Systems;Theory,5
+S0206,CSE,6.77,Research / Higher Studies,Theory;Data,6
+S0207,CSE,5.0,Security Analyst,Web/Software;Systems,5
+S0208,CSE,6.28,Web/App Developer,Web/Software;Security,5
+S0209,IT,7.79,Web/App Developer,Web/Software;AI/ML,4
+S0210,IT,9.46,Research / Higher Studies,AI/ML,5
+S0211,IT,7.62,Research / Higher Studies,AI/ML;Web/Software,5
+S0212,CSE,7.1,Web/App Developer,Security,4
+S0213,ECE,7.67,Systems Engineer,Systems;Theory,6
+S0214,AI&DS,7.49,Research / Higher Studies,Theory;AI/ML,6
+S0215,CSE,8.4,Research / Higher Studies,Data;AI/ML,6
+S0216,CSE,7.05,Systems Engineer,Theory;Systems,5
+S0217,CSE,8.03,ML Engineer,Data;AI/ML,6
+S0218,AI&DS,7.73,Research / Higher Studies,Theory;Data,6
+S0219,CSE,8.39,Web/App Developer,Security;AI/ML,5
+S0220,CSE,7.63,Data Scientist,AI/ML;Security,6
+S0221,IT,7.94,Research / Higher Studies,Web/Software;Data,6
+S0222,IT,7.59,Web/App Developer,AI/ML;Web/Software,6
+S0223,AI&DS,7.59,ML Engineer,AI/ML;Data,5
+S0224,AI&DS,6.41,Research / Higher Studies,Security;Data,4
+S0225,CSE,7.74,Research / Higher Studies,Theory;Data,4
+S0226,CSE,7.83,Research / Higher Studies,Web/Software;Theory,5
+S0227,ECE,6.85,Research / Higher Studies,Theory,4
+S0228,CSE,7.74,Web/App Developer,Web/Software;Theory,4
+S0229,ECE,8.21,Systems Engineer,Systems;AI/ML,6
+S0230,AI&DS,9.17,Data Scientist,Web/Software;Systems,6
+S0231,CSE,8.52,Data Scientist,Web/Software;AI/ML,6
+S0232,AI&DS,7.66,Data Scientist,Data;AI/ML,5
+S0233,CSE,7.57,Data Scientist,Data;Theory,6
+S0234,AI&DS,6.29,Research / Higher Studies,Data;Systems,5
+S0235,IT,9.31,Data Scientist,Theory;Data,5
+S0236,AI&DS,6.04,Data Scientist,Data;AI/ML,6
+S0237,CSE,7.83,Web/App Developer,Theory;Web/Software,5
+S0238,CSE,8.4,Systems Engineer,Security;Systems,4
+S0239,CSE,7.59,Security Analyst,Systems;Theory,6
+S0240,AI&DS,7.57,Research / Higher Studies,Theory;Systems,4
+S0241,AI&DS,7.52,Data Scientist,AI/ML;Web/Software,6
+S0242,AI&DS,9.07,Data Scientist,Theory;AI/ML,5
+S0243,CSE,7.62,Research / Higher Studies,Systems;AI/ML,5
+S0244,ECE,7.31,Research / Higher Studies,Systems;Theory,5
+S0245,AI&DS,8.56,ML Engineer,Web/Software;Systems,6
+S0246,AI&DS,7.34,Data Scientist,AI/ML,4
+S0247,IT,7.13,Security Analyst,Theory;Data,6
+S0248,ECE,8.52,Systems Engineer,Web/Software;Data,4
+S0249,AI&DS,8.84,ML Engineer,AI/ML;Security,5
+S0250,CSE,8.26,Data Scientist,Security;AI/ML,4
+S0251,CSE,7.88,ML Engineer,Theory;Web/Software,4
+S0252,AI&DS,6.96,Security Analyst,Systems;Data,6
+S0253,IT,8.24,Security Analyst,Web/Software;Theory,5
+S0254,ECE,7.36,Web/App Developer,Web/Software;Data,5
+S0255,IT,6.56,Web/App Developer,Web/Software;Data,6
+S0256,CSE,6.43,Systems Engineer,Web/Software;Data,6
+S0257,AI&DS,8.19,Systems Engineer,AI/ML;Web/Software,6
+S0258,AI&DS,8.53,Systems Engineer,Data;Systems,5
+S0259,AI&DS,7.67,ML Engineer,Security;Data,4
+S0260,CSE,6.59,Systems Engineer,Systems;AI/ML,6
+S0261,CSE,7.64,Research / Higher Studies,Web/Software;Systems,6
+S0262,CSE,7.29,Security Analyst,AI/ML;Data,6
+S0263,AI&DS,6.15,Data Scientist,Data,5
+S0264,ECE,7.9,Systems Engineer,Security;Theory,4
+S0265,ECE,8.22,ML Engineer,Systems;Data,5
+S0266,ECE,6.42,Web/App Developer,Systems;Data,6
+S0267,AI&DS,6.52,Security Analyst,Theory;Systems,5
+S0268,CSE,7.9,Systems Engineer,AI/ML;Systems,5
+S0269,CSE,6.98,Security Analyst,Theory;Systems,4
+S0270,CSE,8.02,Data Scientist,AI/ML;Data,5
+S0271,CSE,6.78,Web/App Developer,Web/Software;Data,4
+S0272,CSE,8.73,Systems Engineer,Systems;Theory,6
+S0273,CSE,7.56,Security Analyst,Systems;AI/ML,6
+S0274,ECE,7.98,Web/App Developer,Systems;Data,5
+S0275,ECE,8.04,Research / Higher Studies,Theory;Web/Software,4
+S0276,CSE,6.66,Systems Engineer,Systems;Web/Software,6
+S0277,ECE,9.36,Systems Engineer,Systems;AI/ML,5
+S0278,CSE,7.43,ML Engineer,Theory;Data,5
+S0279,ECE,7.53,Security Analyst,Security;Systems,6
+S0280,CSE,8.67,Data Scientist,AI/ML;Security,5
+S0281,AI&DS,7.52,Data Scientist,Data;AI/ML,4
+S0282,CSE,7.4,Security Analyst,Security;Theory,4
+S0283,AI&DS,8.4,ML Engineer,AI/ML;Data,5
+S0284,ECE,9.1,Web/App Developer,Web/Software;Data,5
+S0285,IT,7.31,ML Engineer,Web/Software;Systems,4
+S0286,IT,9.14,Data Scientist,AI/ML;Theory,6
+S0287,IT,8.07,Data Scientist,Data;Web/Software,6
+S0288,CSE,7.87,Data Scientist,Security;Systems,4
+S0289,IT,6.85,Data Scientist,Theory;Data,5
+S0290,CSE,6.46,Research / Higher Studies,AI/ML;Systems,5
+S0291,CSE,8.76,Research / Higher Studies,Theory;Systems,6
+S0292,CSE,6.72,ML Engineer,AI/ML,6
+S0293,CSE,7.33,ML Engineer,AI/ML;Security,4
+S0294,CSE,8.08,Research / Higher Studies,Theory;Data,6
+S0295,ECE,7.66,Data Scientist,Theory;Security,4
+S0296,CSE,8.27,Research / Higher Studies,AI/ML;Data,5
+S0297,AI&DS,8.13,Systems Engineer,Systems;Web/Software,5
+S0298,AI&DS,8.03,ML Engineer,AI/ML,4
+S0299,AI&DS,6.44,Research / Higher Studies,Data;Security,6
+S0300,AI&DS,6.89,ML Engineer,Security;AI/ML,5
+S0301,CSE,8.34,ML Engineer,AI/ML;Security,6
+S0302,CSE,7.23,Data Scientist,Security;Theory,5
+S0303,ECE,7.31,ML Engineer,Theory;Security,6
+S0304,IT,7.22,Security Analyst,Security;Data,5
+S0305,CSE,7.94,Research / Higher Studies,AI/ML;Security,5
+S0306,IT,8.45,Research / Higher Studies,Security;Theory,4
+S0307,CSE,5.66,Web/App Developer,Web/Software;Security,4
+S0308,CSE,7.75,ML Engineer,AI/ML;Web/Software,5
+S0309,AI&DS,7.16,Web/App Developer,Data;Web/Software,5
+S0310,CSE,7.87,Web/App Developer,Theory;Data,4
+S0311,CSE,7.16,ML Engineer,Systems;AI/ML,4
+S0312,AI&DS,6.94,ML Engineer,Data;Security,5
+S0313,CSE,8.34,Research / Higher Studies,Security;Theory,5
+S0314,CSE,8.37,Systems Engineer,Systems;Web/Software,4
+S0315,IT,8.53,Research / Higher Studies,Security;AI/ML,5
+S0316,AI&DS,8.14,Data Scientist,Data,5
+S0317,AI&DS,5.55,Research / Higher Studies,Security;Web/Software,5
+S0318,AI&DS,7.46,Research / Higher Studies,AI/ML;Theory,4
+S0319,CSE,8.16,Data Scientist,Data;Systems,6
+S0320,AI&DS,6.82,Data Scientist,Data;AI/ML,5
+S0321,AI&DS,7.99,Web/App Developer,Data;AI/ML,4
+S0322,ECE,8.81,ML Engineer,Systems;Security,4
+S0323,ECE,8.19,Web/App Developer,Security;Systems,5
+S0324,AI&DS,7.48,Security Analyst,Security;Theory,6
+S0325,CSE,8.45,Data Scientist,AI/ML;Theory,6
+S0326,CSE,6.92,Security Analyst,Security;Data,5
+S0327,AI&DS,8.89,Web/App Developer,Web/Software,5
+S0328,AI&DS,7.89,Systems Engineer,Systems;Theory,5
+S0329,IT,7.56,Data Scientist,AI/ML;Security,5
+S0330,CSE,8.19,Systems Engineer,Web/Software;Theory,5
+S0331,CSE,7.03,Systems Engineer,AI/ML;Security,6
+S0332,AI&DS,7.18,Web/App Developer,Systems;Data,5
+S0333,AI&DS,8.06,Security Analyst,AI/ML;Data,4
+S0334,IT,7.13,Systems Engineer,Systems;AI/ML,4
+S0335,AI&DS,6.74,Data Scientist,Data;Systems,4
+S0336,CSE,7.08,Security Analyst,Systems;Security,4
+S0337,ECE,7.12,Research / Higher Studies,Systems;Security,6
+S0338,CSE,7.43,Research / Higher Studies,Systems;Data,5
+S0339,CSE,7.7,ML Engineer,AI/ML;Web/Software,4
+S0340,CSE,7.58,Data Scientist,Web/Software;AI/ML,4
+S0341,CSE,6.71,Systems Engineer,Web/Software;Data,4
+S0342,CSE,8.08,Systems Engineer,Systems;Security,4
+S0343,CSE,7.49,Security Analyst,AI/ML;Security,5
+S0344,ECE,7.47,Security Analyst,Security;AI/ML,5
+S0345,AI&DS,6.65,Research / Higher Studies,AI/ML;Theory,4
+S0346,CSE,7.53,Security Analyst,Systems;Theory,5
+S0347,AI&DS,6.96,Systems Engineer,Web/Software;Security,6
+S0348,CSE,6.91,Research / Higher Studies,Theory;Data,5
+S0349,CSE,7.62,Systems Engineer,Data;Systems,6
+S0350,AI&DS,7.68,Data Scientist,Theory;AI/ML,6
+S0351,AI&DS,7.59,Data Scientist,Data;Security,6
+S0352,CSE,7.97,ML Engineer,Data;Security,6
+S0353,IT,8.32,Web/App Developer,Web/Software;Data,5
+S0354,AI&DS,7.44,ML Engineer,Theory;AI/ML,6
+S0355,CSE,8.36,ML Engineer,Web/Software;Data,5
+S0356,AI&DS,6.78,Research / Higher Studies,Theory;Systems,4
+S0357,ECE,8.91,Security Analyst,Systems;Web/Software,6
+S0358,IT,8.4,Data Scientist,Data;Systems,6
+S0359,IT,6.91,Research / Higher Studies,AI/ML;Data,5
+S0360,IT,7.92,Security Analyst,Systems;Theory,5
+S0361,ECE,6.51,Systems Engineer,Theory,6
+S0362,IT,7.79,ML Engineer,Systems;AI/ML,4
+S0363,AI&DS,5.91,ML Engineer,Systems;Data,6
+S0364,AI&DS,7.63,Research / Higher Studies,AI/ML;Web/Software,6
+S0365,CSE,7.93,ML Engineer,Data;Theory,4
+S0366,ECE,9.65,Systems Engineer,Systems;Web/Software,4
+S0367,IT,8.98,Web/App Developer,Web/Software;Security,6
+S0368,AI&DS,5.56,Web/App Developer,Web/Software,6
+S0369,IT,8.81,ML Engineer,Web/Software;Data,6
+S0370,CSE,7.76,Web/App Developer,Security;Theory,5
+S0371,ECE,7.38,Security Analyst,Security;Systems,5
+S0372,AI&DS,8.92,Data Scientist,Data;Systems,4
+S0373,CSE,8.4,Research / Higher Studies,AI/ML;Data,4
+S0374,AI&DS,8.03,Web/App Developer,AI/ML;Web/Software,5
+S0375,AI&DS,7.12,Security Analyst,Web/Software;Data,4
+S0376,CSE,7.76,Systems Engineer,Security;Web/Software,5
+S0377,AI&DS,7.72,ML Engineer,AI/ML;Data,6
+S0378,CSE,7.8,Web/App Developer,Web/Software;AI/ML,6
+S0379,CSE,6.65,Security Analyst,Theory;Systems,4
+S0380,ECE,7.92,ML Engineer,Systems;Security,4
+S0381,IT,7.36,ML Engineer,Data;Web/Software,5
+S0382,CSE,8.04,Data Scientist,Web/Software;Security,4
+S0383,CSE,8.24,Systems Engineer,Theory,6
+S0384,CSE,7.34,Systems Engineer,Systems;Web/Software,4
+S0385,IT,7.83,Research / Higher Studies,Systems;Data,5
+S0386,CSE,7.21,Web/App Developer,Web/Software;Data,6
+S0387,AI&DS,7.54,Security Analyst,Web/Software;AI/ML,6
+S0388,AI&DS,7.74,Data Scientist,AI/ML;Web/Software,5
+S0389,CSE,7.18,Security Analyst,Web/Software;Data,5
+S0390,ECE,7.7,Security Analyst,Security;AI/ML,6
+S0391,ECE,7.74,Data Scientist,Data;Systems,4
+S0392,CSE,7.76,Web/App Developer,Web/Software;Security,5
+S0393,IT,8.71,ML Engineer,Data;Theory,4
+S0394,CSE,6.95,Web/App Developer,Web/Software;Systems,6
+S0395,IT,7.98,ML Engineer,Data;Theory,5
+S0396,CSE,6.88,Security Analyst,AI/ML;Systems,5
+S0397,CSE,7.6,Research / Higher Studies,Theory;Security,6
+S0398,CSE,8.33,Data Scientist,Data;AI/ML,5
+S0399,CSE,7.3,Research / Higher Studies,Data;AI/ML,6
+S0400,IT,8.19,ML Engineer,Web/Software;Data,6
+S0401,IT,7.28,Systems Engineer,Web/Software;Systems,4
+S0402,CSE,7.74,Data Scientist,Theory;Web/Software,4
+S0403,CSE,7.19,Web/App Developer,Web/Software;AI/ML,4
+S0404,CSE,7.39,Systems Engineer,Web/Software;AI/ML,5
+S0405,CSE,7.69,Data Scientist,AI/ML;Systems,4
+S0406,AI&DS,7.59,ML Engineer,Data;AI/ML,5
+S0407,CSE,8.17,Data Scientist,Data;Systems,6
+S0408,CSE,7.99,ML Engineer,Security;Theory,6
+S0409,CSE,7.88,Research / Higher Studies,Data,4
+S0410,CSE,8.51,Security Analyst,AI/ML;Web/Software,6
+S0411,CSE,9.74,Security Analyst,Theory;Data,5
+S0412,AI&DS,8.9,Data Scientist,AI/ML;Theory,5
+S0413,CSE,6.74,Security Analyst,Data;Security,5
+S0414,IT,7.66,Systems Engineer,Data;Security,6
+S0415,CSE,9.8,Systems Engineer,Systems;Data,6
+S0416,ECE,8.87,Security Analyst,Data;Web/Software,4
+S0417,CSE,8.45,ML Engineer,Security;AI/ML,5
+S0418,CSE,7.01,Data Scientist,Security;Web/Software,4
+S0419,CSE,7.65,Data Scientist,Theory;Web/Software,6
+S0420,CSE,7.29,Security Analyst,Web/Software;Security,6
+S0421,AI&DS,6.75,Research / Higher Studies,AI/ML;Security,4
+S0422,ECE,7.63,Security Analyst,Security;Theory,6
+S0423,ECE,9.14,ML Engineer,Systems;Security,5
+S0424,CSE,8.26,Web/App Developer,Data;Theory,6
+S0425,AI&DS,7.87,ML Engineer,AI/ML;Data,4
+S0426,CSE,8.61,Data Scientist,Theory;AI/ML,6
+S0427,AI&DS,5.72,Research / Higher Studies,Theory;AI/ML,4
+S0428,ECE,6.82,Research / Higher Studies,Theory;AI/ML,5
+S0429,AI&DS,9.06,Web/App Developer,Systems;AI/ML,4
+S0430,ECE,6.96,Systems Engineer,Systems;Web/Software,5
+S0431,ECE,7.3,Web/App Developer,Systems,4
+S0432,IT,8.63,Systems Engineer,Systems;AI/ML,6
+S0433,CSE,8.85,Research / Higher Studies,Data;Theory,4
+S0434,AI&DS,7.72,ML Engineer,Theory;Security,6
+S0435,IT,5.93,Security Analyst,Web/Software;AI/ML,5
+S0436,CSE,8.51,Data Scientist,Theory;Data,6
+S0437,CSE,8.83,Data Scientist,AI/ML;Theory,5
+S0438,IT,7.65,Web/App Developer,Web/Software;Data,4
+S0439,IT,8.25,Data Scientist,Security;Systems,6
+S0440,CSE,8.7,Data Scientist,AI/ML;Data,6
+S0441,IT,7.96,ML Engineer,AI/ML;Systems,6
+S0442,IT,8.87,ML Engineer,Data;Web/Software,5
+S0443,IT,7.24,Systems Engineer,Data;Systems,5
+S0444,CSE,7.36,ML Engineer,Web/Software;Systems,5
+S0445,CSE,9.04,ML Engineer,AI/ML;Security,6
+S0446,IT,6.24,Security Analyst,Security,4
+S0447,CSE,7.35,ML Engineer,Web/Software;Security,6
+S0448,AI&DS,8.29,Systems Engineer,AI/ML;Theory,4
+S0449,CSE,8.76,Systems Engineer,Theory;Systems,6
+S0450,ECE,7.39,Security Analyst,Systems;Theory,5
+S0451,CSE,8.08,Data Scientist,Web/Software;Theory,5
+S0452,CSE,7.57,Security Analyst,Security;Systems,6
+S0453,ECE,8.93,ML Engineer,Theory;Systems,4
+S0454,AI&DS,8.28,Security Analyst,Security;AI/ML,6
+S0455,AI&DS,7.65,Systems Engineer,Data;Theory,6
+S0456,AI&DS,6.68,Research / Higher Studies,Theory;Security,6
+S0457,AI&DS,8.53,ML Engineer,AI/ML;Systems,4
+S0458,IT,6.05,Web/App Developer,Systems;Web/Software,5
+S0459,ECE,7.08,Data Scientist,AI/ML;Web/Software,6
+S0460,CSE,7.39,Systems Engineer,Systems;Theory,6
+S0461,CSE,7.77,Web/App Developer,Web/Software;AI/ML,6
+S0462,CSE,6.62,Research / Higher Studies,AI/ML;Security,4
+S0463,IT,6.84,ML Engineer,Security;Web/Software,6
+S0464,AI&DS,8.21,Web/App Developer,AI/ML;Web/Software,5
+S0465,IT,9.8,ML Engineer,Data;Web/Software,5
+S0466,ECE,8.49,Systems Engineer,Theory;Security,5
+S0467,CSE,6.7,Systems Engineer,Data;Systems,6
+S0468,IT,7.94,Research / Higher Studies,AI/ML;Web/Software,5
+S0469,CSE,7.98,Research / Higher Studies,Security;AI/ML,4
+S0470,CSE,7.26,ML Engineer,Security;Web/Software,6
+S0471,AI&DS,8.39,ML Engineer,AI/ML;Web/Software,6
+S0472,IT,7.24,Data Scientist,Security;AI/ML,6
+S0473,IT,6.82,Research / Higher Studies,Web/Software;Data,5
+S0474,AI&DS,6.21,Systems Engineer,AI/ML;Systems,4
+S0475,AI&DS,8.92,Systems Engineer,Data;AI/ML,4
+S0476,CSE,6.77,ML Engineer,AI/ML;Data,4
+S0477,IT,7.06,Data Scientist,Web/Software;Security,4
+S0478,ECE,8.29,Security Analyst,Systems;Web/Software,5
+S0479,IT,7.22,Research / Higher Studies,AI/ML;Web/Software,4
+S0480,AI&DS,8.05,ML Engineer,Data;Theory,5
+S0481,ECE,7.47,Systems Engineer,Systems;Theory,5
+S0482,CSE,8.01,ML Engineer,Data;Web/Software,6
+S0483,CSE,6.18,ML Engineer,AI/ML;Data,5
+S0484,ECE,9.8,Web/App Developer,Security;Data,4
+S0485,CSE,8.35,Research / Higher Studies,AI/ML;Theory,5
+S0486,CSE,9.09,Data Scientist,AI/ML;Data,4
+S0487,IT,6.78,Security Analyst,Security;AI/ML,6
+S0488,IT,6.97,Web/App Developer,Security;AI/ML,6
+S0489,AI&DS,7.11,ML Engineer,Systems;AI/ML,5
+S0490,IT,7.86,Systems Engineer,Theory;Security,5
+S0491,CSE,7.61,ML Engineer,AI/ML;Data,4
+S0492,ECE,7.28,Security Analyst,Data;Theory,5
+S0493,AI&DS,7.11,ML Engineer,AI/ML;Theory,6
+S0494,ECE,9.43,ML Engineer,Web/Software;Security,6
+S0495,CSE,6.96,Data Scientist,Web/Software;Systems,6
+S0496,IT,6.72,Web/App Developer,AI/ML;Security,6
+S0497,IT,7.11,Data Scientist,Data;Security,6
+S0498,IT,7.88,Web/App Developer,Web/Software;Theory,6
+S0499,AI&DS,7.72,ML Engineer,AI/ML;Web/Software,6
+S0500,CSE,6.71,Security Analyst,Systems;Theory,6
+S0501,CSE,7.18,Web/App Developer,Systems;AI/ML,6
+S0502,CSE,7.61,Data Scientist,Data;Security,5
+S0503,IT,7.38,Systems Engineer,Web/Software;Security,5
+S0504,AI&DS,7.74,Web/App Developer,Data;AI/ML,4
+S0505,AI&DS,8.41,Research / Higher Studies,Data;AI/ML,6
+S0506,CSE,8.06,ML Engineer,Theory;Systems,5
+S0507,CSE,7.55,ML Engineer,Systems;Web/Software,4
+S0508,IT,8.57,Research / Higher Studies,Data;Security,5
+S0509,ECE,7.16,Web/App Developer,Systems;Theory,5
+S0510,IT,8.19,Systems Engineer,Security;Data,4
+S0511,CSE,7.88,Data Scientist,AI/ML;Systems,6
+S0512,CSE,8.19,Web/App Developer,Security;Web/Software,6
+S0513,CSE,6.87,Research / Higher Studies,Systems;AI/ML,5
+S0514,CSE,6.34,Data Scientist,AI/ML;Security,5
+S0515,AI&DS,7.52,Data Scientist,Data;AI/ML,6
+S0516,IT,7.5,Security Analyst,Security;Web/Software,4
+S0517,IT,9.61,ML Engineer,Web/Software;Theory,5
+S0518,CSE,8.42,Systems Engineer,Security;Systems,6
+S0519,IT,7.63,Security Analyst,Web/Software;AI/ML,4
+S0520,CSE,6.46,ML Engineer,Data;AI/ML,6
+S0521,ECE,7.46,Systems Engineer,Web/Software;Systems,6
+S0522,CSE,9.48,Research / Higher Studies,AI/ML;Data,6
+S0523,AI&DS,7.68,Data Scientist,Web/Software;Theory,5
+S0524,IT,7.17,Data Scientist,Data;Systems,5
+S0525,IT,7.19,ML Engineer,Data;AI/ML,5
+S0526,ECE,7.7,Security Analyst,Security;Theory,6
+S0527,AI&DS,7.53,Research / Higher Studies,AI/ML;Web/Software,6
+S0528,ECE,7.27,Security Analyst,Systems;Theory,6
+S0529,AI&DS,8.29,Security Analyst,Security;Data,4
+S0530,AI&DS,8.34,Data Scientist,AI/ML;Data,4
+S0531,AI&DS,8.8,Research / Higher Studies,AI/ML;Data,5
+S0532,CSE,7.01,Systems Engineer,Web/Software;Theory,4
+S0533,CSE,6.75,Data Scientist,AI/ML;Theory,5
+S0534,CSE,7.57,Security Analyst,Security;Web/Software,5
+S0535,CSE,7.23,Web/App Developer,AI/ML;Web/Software,5
+S0536,CSE,8.74,Research / Higher Studies,AI/ML;Web/Software,4
+S0537,CSE,7.8,Web/App Developer,AI/ML;Security,4
+S0538,CSE,8.44,Systems Engineer,Theory;Systems,5
+S0539,CSE,6.85,ML Engineer,AI/ML;Theory,4
+S0540,CSE,8.34,Research / Higher Studies,AI/ML;Data,4
+S0541,IT,7.4,Research / Higher Studies,Security;Web/Software,6
+S0542,IT,8.64,Research / Higher Studies,Theory;Web/Software,5
+S0543,CSE,8.87,ML Engineer,Security;Systems,5
+S0544,CSE,8.06,Systems Engineer,Systems;Web/Software,4
+S0545,CSE,9.8,Systems Engineer,Web/Software;Data,5
+S0546,CSE,7.48,ML Engineer,Data;Systems,6
+S0547,AI&DS,8.8,Web/App Developer,AI/ML;Systems,5
+S0548,CSE,7.63,Web/App Developer,Systems;Web/Software,5
+S0549,CSE,6.72,Research / Higher Studies,Data;AI/ML,6
+S0550,AI&DS,7.11,ML Engineer,Web/Software;Data,6
+S0551,CSE,8.09,ML Engineer,Data;AI/ML,4
+S0552,ECE,8.25,ML Engineer,AI/ML;Systems,5
+S0553,CSE,8.08,Security Analyst,Web/Software;Systems,5
+S0554,CSE,7.88,Research / Higher Studies,Theory,6
+S0555,AI&DS,7.03,Data Scientist,Theory;AI/ML,4
+S0556,CSE,5.9,Research / Higher Studies,Web/Software;Systems,5
+S0557,AI&DS,6.52,ML Engineer,Data;Security,6
+S0558,CSE,9.07,Systems Engineer,Security;Web/Software,6
+S0559,AI&DS,7.96,Web/App Developer,Data;Web/Software,4
+S0560,AI&DS,7.0,Web/App Developer,AI/ML,4
+S0561,ECE,7.29,Data Scientist,AI/ML;Systems,5
+S0562,IT,7.11,Security Analyst,Web/Software;Data,4
+S0563,CSE,7.32,Data Scientist,Security;Data,5
+S0564,CSE,8.37,Web/App Developer,Theory;AI/ML,6
+S0565,IT,6.95,ML Engineer,Web/Software;Security,4
+S0566,ECE,5.76,Research / Higher Studies,AI/ML;Theory,4
+S0567,IT,7.09,Systems Engineer,Web/Software;AI/ML,5
+S0568,CSE,6.35,Web/App Developer,Web/Software;Security,4
+S0569,CSE,6.13,Web/App Developer,AI/ML;Security,4
+S0570,IT,7.67,Systems Engineer,AI/ML;Theory,5
+S0571,AI&DS,5.19,Systems Engineer,Security;AI/ML,5
+S0572,AI&DS,8.74,Security Analyst,AI/ML;Data,5
+S0573,IT,8.62,Research / Higher Studies,Web/Software;Data,5
+S0574,ECE,7.42,ML Engineer,Theory;Web/Software,5
+S0575,AI&DS,5.9,Data Scientist,Theory;Data,5
+S0576,CSE,6.41,Research / Higher Studies,AI/ML;Data,4
+S0577,CSE,8.07,ML Engineer,Theory;Data,5
+S0578,AI&DS,7.98,Data Scientist,AI/ML;Data,4
+S0579,CSE,6.91,Data Scientist,AI/ML;Theory,4
+S0580,CSE,9.35,Systems Engineer,Data;Security,5
+S0581,CSE,7.98,Research / Higher Studies,Web/Software;Security,5
+S0582,AI&DS,8.04,Data Scientist,Data;AI/ML,4
+S0583,CSE,7.07,Security Analyst,Web/Software;Theory,6
+S0584,AI&DS,8.7,Security Analyst,AI/ML;Security,5
+S0585,ECE,7.38,Security Analyst,Security;Data,6
+S0586,CSE,7.67,Security Analyst,Systems;Data,6
+S0587,IT,7.7,Security Analyst,Web/Software;Systems,6
+S0588,CSE,7.18,Research / Higher Studies,AI/ML;Security,5
+S0589,AI&DS,5.49,Data Scientist,Security;AI/ML,5
+S0590,CSE,9.8,Research / Higher Studies,Systems;Web/Software,5
+S0591,ECE,6.02,Web/App Developer,Systems;Data,6
+S0592,AI&DS,7.1,Web/App Developer,AI/ML;Web/Software,5
+S0593,AI&DS,6.93,Data Scientist,Web/Software;Theory,4
+S0594,CSE,8.08,Security Analyst,Data;Security,5
+S0595,CSE,7.95,Security Analyst,Security;AI/ML,4
+S0596,AI&DS,7.93,Systems Engineer,Data;Theory,6
+S0597,CSE,7.63,Systems Engineer,Systems;Web/Software,4
+S0598,CSE,7.75,ML Engineer,Systems;Theory,5
+S0599,IT,8.21,Systems Engineer,Web/Software;Data,5

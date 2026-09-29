@@ -1,0 +1,49 @@
+course_id,name,topic,level,difficulty,credits,prerequisites,description
+CS101,Programming with Python,Web/Software,1,2,3,,python programming variables loops functions scripting problem solving
+CS102,Discrete Mathematics,Theory,1,3,3,,logic sets relations graphs combinatorics proofs
+CS103,Linear Algebra for Computing,Theory,1,3,3,,vectors matrices eigenvalues linear transformations applications
+CS104,Probability and Statistics,Data,1,3,3,,probability random variables distributions hypothesis testing inference
+CS105,Digital Logic Design,Systems,1,2,3,,boolean algebra logic gates circuits flip flops
+CS106,Web Fundamentals,Web/Software,1,2,3,,html css javascript responsive web pages
+CS107,Introduction to Data Analysis,Data,1,2,3,,spreadsheets data cleaning visualization charts exploratory analysis
+CS108,Cyber Hygiene and Ethics,Security,1,1,3,,passwords privacy phishing safe computing ethics
+CS201,Data Structures,Web/Software,2,3,3,CS101,arrays linked lists trees graphs hashing algorithms complexity
+CS202,Database Management Systems,Data,2,3,3,CS101,sql relational model normalization transactions indexing
+CS203,Computer Organization,Systems,2,3,3,CS105,processor architecture instruction set memory hierarchy pipelining
+CS204,Object Oriented Programming,Web/Software,2,2,3,CS101,classes inheritance polymorphism design patterns java
+CS205,Design and Analysis of Algorithms,Theory,2,4,4,CS201;CS102,divide conquer dynamic programming greedy graph algorithms np completeness
+CS206,Python for Data Science,Data,2,2,3,CS101;CS107,numpy pandas matplotlib data wrangling notebooks
+CS207,Introduction to Artificial Intelligence,AI/ML,2,3,3,CS101,search heuristics knowledge representation agents constraint satisfaction
+CS208,Computer Networks,Systems,2,3,3,CS105,tcp ip routing protocols layers sockets
+CS209,Web Development with JavaScript,Web/Software,2,2,3,CS106,javascript dom react frontend apis
+CS210,Introduction to Cryptography,Security,2,3,3,CS102,encryption symmetric public key hashing signatures number theory
+CS211,Statistical Methods for Data Analysis,Data,2,3,3,CS104,regression anova sampling confidence intervals statistical modelling
+CS212,Theory of Computation,Theory,2,4,4,CS102,automata regular languages turing machines decidability
+CS301,Machine Learning,AI/ML,3,4,4,CS103;CS104;CS206,supervised unsupervised learning regression classification clustering model evaluation
+CS302,Deep Learning,AI/ML,3,5,4,CS301,neural networks backpropagation cnn rnn optimization pytorch
+CS303,Natural Language Processing,AI/ML,3,4,4,CS301,text tokenization embeddings language models sentiment translation
+CS304,Computer Vision,AI/ML,3,4,4,CS301,image processing convolution object detection segmentation
+CS305,Operating Systems,Systems,3,4,4,CS201;CS203,processes threads scheduling memory management file systems deadlocks
+CS306,Data Mining and Warehousing,Data,3,3,3,CS202;CS206,association rules clustering classification olap data warehouse etl
+CS307,Big Data Analytics,Data,3,4,4,CS202;CS206,hadoop spark mapreduce distributed processing streaming
+CS308,Data Visualization,Data,3,2,3,CS206,dashboards storytelling tableau plotting visual analytics
+CS309,Software Engineering,Web/Software,3,2,3,CS204,requirements agile testing uml version control project management
+CS310,Full Stack Web Development,Web/Software,3,3,3,CS209;CS202,node express mongodb rest api authentication deployment
+CS311,Mobile App Development,Web/Software,3,3,3,CS204,android flutter user interface sensors app store
+CS312,Network Security,Security,3,4,4,CS208;CS210,firewalls intrusion detection vpn ssl attacks defense
+CS313,Ethical Hacking and Penetration Testing,Security,3,4,4,CS208,vulnerability scanning exploits metasploit reconnaissance web attacks
+CS314,Distributed Systems,Systems,3,5,4,CS208;CS201,replication consensus fault tolerance clocks microservices
+CS315,Compiler Design,Theory,3,5,4,CS212;CS201,lexical analysis parsing code generation optimization
+CS316,Cloud Computing,Systems,3,3,3,CS208,virtualization aws containers docker serverless scalability
+CS401,Reinforcement Learning,AI/ML,4,5,4,CS301,agents rewards markov decision processes q learning policy gradient
+CS402,Generative AI and LLMs,AI/ML,4,5,4,CS302,transformers large language models prompting diffusion fine tuning
+CS403,Recommender Systems,AI/ML,4,4,4,CS301,collaborative filtering content based matrix factorization ranking evaluation
+CS404,MLOps and Model Deployment,AI/ML,4,3,3,CS301,model deployment monitoring pipelines docker versioning
+CS405,Time Series Forecasting,Data,4,4,4,CS211,arima seasonality forecasting trends prediction
+CS406,Information Retrieval,Data,4,3,3,CS202,indexing search engines ranking relevance query
+CS407,Cyber Forensics,Security,4,3,3,CS208;CS108,digital evidence disk analysis incident response logs
+CS408,Blockchain Technology,Security,4,3,3,CS210,distributed ledger consensus smart contracts ethereum
+CS409,High Performance Computing,Systems,4,5,4,CS305,parallel programming gpu cuda mpi performance
+CS410,Embedded and IoT Systems,Systems,4,3,3,CS203,microcontrollers sensors arduino iot protocols real time
+CS411,Advanced Algorithms,Theory,4,5,4,CS205,randomized approximation algorithms network flow amortized analysis
+CS412,Quantum Computing,Theory,4,5,4,CS103;CS212,qubits quantum gates superposition algorithms shor grover
