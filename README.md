@@ -1,4 +1,4 @@
-# Personalized Course Recommendation System (CS24308 – AI Project)
+# Personalized Course Recommendation System
 
 Compares **five AI approaches** for recommending elective courses to a student, adds a
 **student-designed improvement (PCHR)**, reports **quantitative results** and ends with a
@@ -22,7 +22,7 @@ python main.py demo --new             # cold-start: enter your own profile
 | `recsys/evaluate.py` | Metrics, tuning, ablation, cold-start experiment |
 | `main.py` | `compare` and `demo` commands |
 
-## Mapping to the 30-mark evaluation scheme
+## Functionalities
 | Component | Where it is covered |
 |---|---|
 | Problem formulation & originality | Top-N course recommendation with prerequisites, year-gating, CGPA/difficulty and career goal – constraints ordinary movie-style recommenders ignore |
@@ -46,7 +46,7 @@ python main.py demo --new             # cold-start: enter your own profile
 
 Hybrid beat the strongest baseline in 5/5 datasets. Regenerate exact numbers with `python main.py compare`.
 
-## Honest limitations (state these in your viva)
+## Limitations 
 * Data is **synthetic**: results show the methods work under the generator's stated rules, not on real students. The CSV schema lets you drop in real data.
 * The eligible pool is small (~9 courses), so Random is a strong floor (NDCG 0.38) – read gains relative to it.
 * Difficulty penalty and the extra CF/content terms add ~0 in the ablation on this data; the eligibility rule and career/interest profile give the gains.
