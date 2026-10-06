@@ -32,7 +32,6 @@ python main.py demo --new             # cold-start: enter your own profile
 | Evaluation & interpretation | Precision/Recall/NDCG/HitRate@K, RMSE/MAE, coverage, topic spread, eligibility rate, ablation |
 | Student's own improvement | **PCHR** (see `HybridRecommender` docstring) – ablation Table 4 shows which parts matter |
 | Working application / demo | `python main.py demo` (existing student, explanations, cold-start mode) |
-| Viva | `Viva_Questions_Course_Recommender.docx` |
 
 ## Headline results (K = 5, mean of 5 datasets; every model restricted to eligible courses)
 | Model | Precision | Recall | NDCG |
