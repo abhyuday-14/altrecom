@@ -1,0 +1,65 @@
+
+=== 5 random datasets x 600 students, K=5, relevant = held-out course rated >= 4 ===
+
+--- TABLE 1: all courses not yet taken are candidates ---
+                                 precision          recall            ndcg             hit        coverage    topic_spread   eligible_rate
+model                                                                                                                                     
+Random                      0.065 +/-0.005  0.165 +/-0.007   0.119 +/-0.01   0.29 +/-0.023  0.971 +/-0.011  0.731 +/-0.005  0.311 +/-0.008
+Popularity                  0.129 +/-0.017   0.354 +/-0.04  0.241 +/-0.032   0.49 +/-0.047  0.554 +/-0.019  0.661 +/-0.019  0.898 +/-0.009
+Content-Based (TF-IDF)      0.173 +/-0.019  0.421 +/-0.019  0.349 +/-0.025  0.604 +/-0.032    0.8 +/-0.011   0.55 +/-0.016  0.494 +/-0.015
+User-kNN CF                 0.258 +/-0.013  0.648 +/-0.021  0.567 +/-0.015  0.799 +/-0.024  0.667 +/-0.029   0.63 +/-0.012  0.609 +/-0.014
+Matrix Factorization (ALS)  0.242 +/-0.016  0.606 +/-0.017  0.507 +/-0.027  0.764 +/-0.015  0.688 +/-0.079  0.599 +/-0.024   0.565 +/-0.01
+Hybrid PCHR                 0.366 +/-0.019  0.924 +/-0.013  0.805 +/-0.014  0.975 +/-0.008  0.742 +/-0.011  0.641 +/-0.021      1.0 +/-0.0
+
+--- TABLE 2 (fair): every model may only recommend ELIGIBLE courses ---
+                                 precision          recall            ndcg             hit        coverage    topic_spread eligible_rate
+model                                                                                                                                   
+Random                      0.208 +/-0.013  0.544 +/-0.026  0.382 +/-0.017  0.757 +/-0.035  0.746 +/-0.009   0.75 +/-0.005    1.0 +/-0.0
+Popularity                  0.153 +/-0.017   0.417 +/-0.04  0.275 +/-0.032  0.576 +/-0.044   0.65 +/-0.031  0.692 +/-0.019    1.0 +/-0.0
+Content-Based (TF-IDF)      0.283 +/-0.024   0.716 +/-0.03  0.565 +/-0.023   0.86 +/-0.033  0.725 +/-0.027  0.672 +/-0.015    1.0 +/-0.0
+User-kNN CF                 0.325 +/-0.014  0.831 +/-0.011  0.713 +/-0.016  0.934 +/-0.008  0.742 +/-0.011  0.695 +/-0.016    1.0 +/-0.0
+Matrix Factorization (ALS)  0.331 +/-0.017  0.849 +/-0.009  0.708 +/-0.017  0.941 +/-0.009  0.738 +/-0.019  0.675 +/-0.023    1.0 +/-0.0
+Hybrid PCHR                 0.366 +/-0.019  0.924 +/-0.013  0.805 +/-0.014  0.975 +/-0.008  0.742 +/-0.011  0.641 +/-0.021    1.0 +/-0.0
+
+--- TABLE 3: rating-prediction error on held-out ratings (lower is better) ---
+                                      rmse             mae
+model                                                     
+Random                                 NaN             NaN
+Popularity                  1.112 +/-0.024  0.931 +/-0.022
+Content-Based (TF-IDF)                 NaN             NaN
+User-kNN CF                 1.024 +/-0.016  0.844 +/-0.017
+Matrix Factorization (ALS)   1.002 +/-0.02  0.805 +/-0.016
+Hybrid PCHR                            NaN             NaN
+
+--- TABLE 4: ablation of the student-designed improvement ---
+                                   precision          recall            ndcg    topic_spread   eligible_rate
+model                                                                                                       
+Full PCHR                     0.366 +/-0.019  0.924 +/-0.013  0.805 +/-0.014  0.641 +/-0.021      1.0 +/-0.0
+- eligibility rule            0.258 +/-0.016  0.632 +/-0.033   0.55 +/-0.036  0.405 +/-0.013  0.447 +/-0.022
+- career/interest profile     0.328 +/-0.023  0.842 +/-0.019  0.704 +/-0.031  0.682 +/-0.028      1.0 +/-0.0
+- difficulty-vs-CGPA penalty  0.366 +/-0.019  0.923 +/-0.013  0.806 +/-0.016   0.639 +/-0.02      1.0 +/-0.0
+- MMR diversity                0.367 +/-0.02  0.925 +/-0.012  0.805 +/-0.013   0.635 +/-0.02      1.0 +/-0.0
+- matrix factorization        0.363 +/-0.018  0.915 +/-0.009  0.797 +/-0.012  0.637 +/-0.016      1.0 +/-0.0
+
+--- TABLE 5: diversity vs accuracy (MMR gamma) ---
+                precision            ndcg    topic_spread
+model                                                    
+gamma=0     0.367 +/-0.02  0.805 +/-0.013   0.635 +/-0.02
+gamma=0.1  0.367 +/-0.019  0.805 +/-0.013  0.638 +/-0.021
+gamma=0.2  0.366 +/-0.019  0.804 +/-0.014  0.642 +/-0.021
+gamma=0.3  0.366 +/-0.019  0.804 +/-0.014  0.648 +/-0.019
+gamma=0.5   0.362 +/-0.02  0.796 +/-0.012  0.672 +/-0.021
+
+--- TABLE 6: NDCG@K vs number of semesters of ratings known (cold start) ---
+model              Random  Popularity  Content-Based (TF-IDF)  User-kNN CF  Matrix Factorization (ALS)  Hybrid PCHR
+history_semesters                                                                                                  
+0                   0.378       0.275                   0.275        0.275                       0.532        0.758
+1                   0.379       0.275                   0.542        0.575                       0.656        0.794
+2                   0.384       0.275                   0.500        0.626                       0.676        0.799
+3                   0.383       0.275                   0.565        0.683                       0.691        0.806
+
+tuned hybrid weights (seed 0): {'w_mf': 0.5, 'w_cf': 0.5, 'w_cb': 0, 'w_pop': 0, 'w_profile': 1.0, 'w_diff': 0.3, 'gamma': 0.15}
+
+Hybrid - User-kNN CF (fair NDCG): mean +0.091, min +0.079, wins in 5/5 datasets
+
+Saved tables and plots in ./results/

@@ -1,11 +1,4 @@
-"""Recommendation algorithms.
 
-Baseline : PopularityRecommender
-Approach 1: ContentBasedRecommender   (TF-IDF + cosine similarity)
-Approach 2: UserKNNRecommender        (user-based collaborative filtering)
-Approach 3: MatrixFactorization       (biased ALS, from scratch in numpy)
-Student's improvement: HybridRecommender (see class docstring)
-"""
 import numpy as np
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
@@ -125,8 +118,6 @@ class UserKNNRecommender(BaseRecommender):
 
 
 class MatrixFactorization(BaseRecommender):
-    """Biased matrix factorisation r_ui ~ mu + b_i + b_u + p_u . q_i trained with ALS.
-    New / held-out students are 'folded in' by solving a ridge regression against item factors."""
     name = "Matrix Factorization (ALS)"
 
     def __init__(self, k=8, reg=4.0, iters=15, seed=0):
@@ -173,17 +164,8 @@ DEFAULT_WEIGHTS = dict(w_mf=1.0, w_cf=0.5, w_cb=0.5, w_pop=0.25, w_profile=1.0, 
 
 
 class HybridRecommender(BaseRecommender):
-    """STUDENT'S OWN IMPROVEMENT - PCHR (Prerequisite-, Career- and difficulty-aware Hybrid
-    Recommender with MMR diversity re-ranking).
-
-    score(j) = w_mf*z(MF) + w_cf*z(kNN) + w_cb*z(Content) + w_pop*z(log popularity)
-             + w_profile*profile_fit(career goal, declared interests)
-             - w_diff*max(0, difficulty_j - ability(CGPA))
-    * hard rule: only courses whose prerequisites are done and whose year-level is open
-    * final list built greedily with MMR:  (1-gamma)*score_norm - gamma*max_sim_to_selected
-    * cold start: with no ratings the z-terms vanish and profile_fit + popularity take over
-    """
-    name = "Hybrid PCHR (ours)"
+    
+    name = "Hybrid PCHR"
 
     def __init__(self, base=None, **weights):
         self.w = {**DEFAULT_WEIGHTS, **weights}

@@ -54,8 +54,10 @@ def cmd_compare(a):
     print("\ntuned hybrid weights (seed 0):", runs[0]["weights"])
 
     # significance: paired difference in NDCG across seeds, hybrid vs best baseline (fair table)
-    best = m2.drop(index=["Hybrid PCHR (ours)", "Random"]).ndcg.idxmax()
-    diffs = [r["fair"].set_index("model").ndcg["Hybrid PCHR (ours)"] - r["fair"].set_index("model").ndcg[best] for r in runs]
+    hyb_name = "Hybrid PCHR"
+    base = [n for n in m2.index if n not in (hyb_name, "Random")]   # works even if Random is absent
+    best = m2.loc[base, "ndcg"].idxmax()
+    diffs = [r["fair"].set_index("model").ndcg[hyb_name] - r["fair"].set_index("model").ndcg[best] for r in runs]
     print(f"\nHybrid - {best} (fair NDCG): mean {np.mean(diffs):+.3f}, min {np.min(diffs):+.3f}, "
           f"wins in {sum(d > 0 for d in diffs)}/{len(diffs)} datasets")
     make_plots(m2, s2, runs, piv)
@@ -68,14 +70,14 @@ def make_plots(m2, s2, runs, piv):
     fig, ax = plt.subplots(1, 3, figsize=(17, 4.6))
     names = list(m2.index); colors = ["#bbb", "#9bb", "#79b", "#58a", "#36a", "#d55"]
     ax[0].bar(range(len(names)), m2.ndcg, yerr=s2.ndcg, color=colors[:len(names)], capsize=3)
-    ax[0].set_xticks(range(len(names))); ax[0].set_xticklabels([n.replace(" (", "\n(") for n in names], fontsize=7)
+    ax[0].set_xticks(range(len(names))); ax[0].set_xticklabels([n.replace(" (", "\n(") for n in names], fontsize=7, rotation=25, ha="right")
     ax[0].set_title("NDCG@K (eligible candidates, mean+/-std)"); ax[0].set_ylabel("NDCG")
     abl = pd.concat(r["ablation"] for r in runs).groupby("model", sort=False).ndcg.mean()
     ax[1].barh(range(len(abl)), abl.values, color="#d55"); ax[1].set_yticks(range(len(abl)))
     ax[1].set_yticklabels(abl.index, fontsize=8); ax[1].invert_yaxis(); ax[1].set_title("Ablation of hybrid (NDCG@K)")
     for c in piv.columns:
-        ax[2].plot(piv.index, piv[c], marker="o", label=c, lw=3 if "ours" in c else 1.3)
-    ax[2].set_xlabel("semesters of ratings known"); ax[2].set_ylabel("NDCG"); ax[2].legend(fontsize=7)
+        ax[2].plot(piv.index, piv[c], marker="o", label=c, lw=3 if "Hybrid" in c else 1.3)
+    ax[2].set_xlabel("semesters of ratings known"); ax[2].set_ylabel("NDCG"); ax[2].legend(fontsize=7, loc="lower right")
     ax[2].set_title("Cold-start behaviour")
     plt.tight_layout(); plt.savefig(f"{RES}/comparison.png", dpi=130)
 
@@ -138,7 +140,7 @@ def cmd_demo(a):
     el = data.eligible(ctx.taken, ctx.next_semester)
     for m in (pop, cb, knn, mf):
         print_recs(m.name, data, m, ctx, a.k, ~ctx.taken)
-    print_recs("HYBRID PCHR (ours) - with explanations", data, hyb, ctx, a.k, ~ctx.taken, show_why=True)
+    print_recs("HYBRID PCHR - with explanations", data, hyb, ctx, a.k, ~ctx.taken, show_why=True)
     actual = test[(test.student_id == sid)]
     print("\nWhat the student actually took next semester (ground truth):",
           ", ".join(f"{r.course_id}(rated {r.rating})" for r in actual.itertuples()))
